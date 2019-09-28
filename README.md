@@ -28,7 +28,6 @@ https://github.com/soumitya0/LocationListener_add_Location_Databases/blob/master
 
 https://github.com/soumitya0/LocationListener_add_Location_Databases/tree/master/ReadMe<br>
 
-<br>
 # Authors
 <br>
  soumitya chauhan  <br>
