@@ -1,0 +1,93 @@
+Microsoft Windows [Version 10.0.18362.329]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\xampp\mysql\bin>mysql -u root -p
+Enter password:
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 12
+Server version: 10.4.6-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+
+
+I have open MySQL from xampp 
+ 
+ 1.Created a db (trackingapp)
+ 2.with table (tracking)
+  
+
+
+
+
+
+
+
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| demo               |
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| sysadmin           |
+| test               |
+| trackingapp        |
++--------------------+
+8 rows in set (0.001 sec)
+
+MariaDB [(none)]> use trackingapp;
+Database changed
+MariaDB [trackingapp]> show tables;
++-----------------------+
+| Tables_in_trackingapp |
++-----------------------+
+| tracking              |
++-----------------------+
+1 row in set (0.001 sec)
+
+MariaDB [trackingapp]> select * from tracking;
++---------+---------+-----------+
+| logi    | latit   | device_id |
++---------+---------+-----------+
+|      80 |     100 |        55 |
+|      80 |      65 |        55 |
+|      55 |      50 |        55 |
+|      55 |      50 |       555 |
+|      55 |      50 |       555 |
+|      55 |      50 |       555 |
+|      55 |      50 |       555 |
+|      55 |      50 |       555 |
+|      55 |      50 |       555 |
+|     5.2 |    45.5 |        55 |
+| 28.8548 | 77.5884 |       555 |
+|     5.2 |    45.5 |        55 |
++---------+---------+-----------+
+12 rows in set (0.140 sec)
+
+MariaDB [trackingapp]> select * from tracking;
++---------+---------+-----------+
+| logi    | latit   | device_id |
++---------+---------+-----------+
+|      80 |     100 |        55 |
+|      80 |      65 |        55 |
+|      55 |      50 |        55 |
+|      55 |      50 |       555 |
+|      55 |      50 |       555 |
+|      55 |      50 |       555 |
+|      55 |      50 |       555 |
+|      55 |      50 |       555 |
+|      55 |      50 |       555 |
+|     5.2 |    45.5 |        55 |
+| 28.8548 | 77.5884 |       555 |
+|     5.2 |    45.5 |        55 |
+|     5.2 |    45.5 |        55 |
+| 18.5161 | 73.8245 |       555 |
++---------+---------+-----------+
+14 rows in set (0.000 sec)
+
+MariaDB [trackingapp]>
