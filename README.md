@@ -9,10 +9,10 @@ In this application  when your Location is Change this application will add your
 
 
 # use 
-1.Location Listener 
-2.Xampp server
-3.MySql
-4.PHP
+1.Location Listener <br>
+2.Xampp server<br>
+3.MySql<br>
+4.PHP<br>
 
 # PHP (CODE)
 https://github.com/soumitya0/LocationListener_add_Location_Databases/blob/master/ReadMe/PHPtrackingApp.php
