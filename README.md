@@ -18,30 +18,31 @@ In this application  when your Location is Change this application will add your
 https://github.com/soumitya0/LocationListener_add_Location_Databases/blob/master/ReadMe/PHPtrackingApp.php
 
 # Mysql
-MariaDB [trackingapp]> select * from tracking;
-+---------+---------+-----------+
-| logi    | latit   | device_id |
-+---------+---------+-----------+
-|      80 |     100 |        55 |
-|      80 |      65 |        55 |
-|      55 |      50 |        55 |
-|      55 |      50 |       555 |
-|      55 |      50 |       555 |
-|      55 |      50 |       555 |
-|      55 |      50 |       555 |
-|      55 |      50 |       555 |
-|      55 |      50 |       555 |
-|     5.2 |    45.5 |        55 |
-| 28.8548 | 77.5884 |       555 |
-|     5.2 |    45.5 |        55 |
-|     5.2 |    45.5 |        55 |
-| 18.5161 | 73.8245 |       555 |
-+---------+---------+-----------+
-14 rows in set (0.000 sec)
 
 https://github.com/soumitya0/LocationListener_add_Location_Databases/blob/master/ReadMe/MySql_GPS_Tracking_DB.txt
 
 
+MariaDB [trackingapp]> select * from tracking;<br>
++---------+---------+-----------+<br>
+| logi    | latit   | device_id |<br>
++---------+---------+-----------+<br>
+|      80 |     100 |        55 |<br>
+|      80 |      65 |        55 |<br>
+|      55 |      50 |        55 |<br>
+|      55 |      50 |       555 |<br>
+|      55 |      50 |       555 |<br>
+|      55 |      50 |       555 |<br>
+|      55 |      50 |       555 |<br>
+|      55 |      50 |       555 |<br>
+|      55 |      50 |       555 |<br>
+|     5.2 |    45.5 |        55 |<br>
+| 28.8548 | 77.5884 |       555 |<br><br>
+|     5.2 |    45.5 |        55 |<br>
+|     5.2 |    45.5 |        55 |<br>
+| 18.5161 | 73.8245 |       555 |<br><br>
++---------+---------+-----------+<br>
+14 rows in set (0.000 sec)<br>
+<br>
 # Authors
  soumitya chauhan  
  github id : <b>soumitya0</b><br>
