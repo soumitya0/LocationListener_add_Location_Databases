@@ -30,6 +30,7 @@ https://github.com/soumitya0/LocationListener_add_Location_Databases/tree/master
 
 <br>
 # Authors
- soumitya chauhan  
+<br>
+ soumitya chauhan  <br>
  github id : <b>soumitya0</b><br>
  gmail id: <b>soumityachauhan@gmail.com<b></br>
