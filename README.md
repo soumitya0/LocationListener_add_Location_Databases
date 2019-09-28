@@ -16,7 +16,7 @@ In this application  when your Location is Change this application will add your
 
 # PHP (CODE)
 https://github.com/soumitya0/LocationListener_add_Location_Databases/blob/master/ReadMe/PHPtrackingApp.php
-
+<h1>
 <?php
 // display the inserted data into web 
 $host="127.0.0.1";
@@ -42,7 +42,7 @@ if (!$result)
 print($output);
 mysqli_close($connect);
 ?>
-
+</h1>
 
 # Authors
  soumitya chauhan  
